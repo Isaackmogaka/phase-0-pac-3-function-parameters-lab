@@ -10,11 +10,14 @@ console.log(introductionWithLanguage("Isaack", "Python"));
 console.log(introductionWithLanguage("Enock", "JavaScript"));
 
 
-function introductionWithLanguageOptional(name, language = "Javascript") {
-  return "Hi, my name is " + name + " and I am learning to program in " + language + ".";
-}
-console.log(introductionWithLanguage("Gracie", "JavaScript"));
 
+function introductionWithLanguageOptional(name, language = 'JavaScript') {
+  return `Hi, my name is ${name} and I am learning to program in ${language}.`;
+}
+
+function introduction(name) {
+  return `Hi, my name is ${name}.`;
+}
 
 
 
